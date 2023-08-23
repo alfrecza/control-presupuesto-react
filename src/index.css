@@ -232,7 +232,11 @@ header h1 {
 }
 
 main {
-    padding-top: 10rem;
+    padding-top: 7rem;
+}
+
+.filtros {
+    margin-top: 3rem;
 }
 
 .filtros .campo {

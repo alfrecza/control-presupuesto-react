@@ -5,7 +5,7 @@ const ListadoGastos = ({gastos, setGastoEditar, eliminarGasto, gastosFiltrados})
 
     return(
         <div className="listado-gastos contenedor">
-            <h2>{gastos.length ? 'Gastos' : 'No hay gastos'}</h2>
+            <h2>{gastos.length ? 'Gastos' : 'No hay gastos, comienza por agregar uno'}</h2>
 
             {gastosFiltrados.length > 0 ? 
                 gastosFiltrados.map(gasto => (

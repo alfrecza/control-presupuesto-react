@@ -14,6 +14,7 @@ import IconoGastos from '../assets/img/icono_gastos.svg'
 import IconoOcio from '../assets/img/icono_ocio.svg'
 import IconoSalud from '../assets/img/icono_salud.svg'
 import IconoSuscripciones from '../assets/img/icono_suscripciones.svg'
+import IconoTarjetas from '../assets/img/logo_tarjeta.jpg'
 
 const diccionarioIconos = {   
     ahorro: IconoAhorro,
@@ -22,7 +23,8 @@ const diccionarioIconos = {
     gastos: IconoGastos,
     ocio: IconoOcio,
     salud: IconoSalud,
-    suscripciones: IconoSuscripciones
+    suscripciones: IconoSuscripciones,
+    tarjeta: IconoTarjetas
 }
 
 

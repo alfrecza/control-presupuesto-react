@@ -103,7 +103,7 @@ const App = () => {
       {isValidPresupuesto && (
         <>
           <main>
-            <Filtros filtro={filtro} setFiltro={setFiltro}/>
+            {gastos.length > 0 && <Filtros filtro={filtro} setFiltro={setFiltro}/>}
             <ListadoGastos gastos={gastos} setGastoEditar={setGastoEditar} eliminarGasto={eliminarGasto} gastosFiltrados={gastosFiltrados}/>
           </main>
           <div className="nuevo-gasto">
